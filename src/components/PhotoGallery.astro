@@ -2,7 +2,7 @@
 import CarouselGallery from 'astro-gallery/components/CarouselGallery.astro';
 import type { GalleryPhoto } from '../data/gallery';
 interface Props { photos: GalleryPhoto[]; album?: string; }
-const { photos, album = 'Galería de Effer Glass' } = Astro.props;
+const { photos, album = 'Galería de Focus' } = Astro.props;
 const carouselPhotos = photos.map(({ src, alt }) => ({ src, alt, title: alt }));
 ---
 

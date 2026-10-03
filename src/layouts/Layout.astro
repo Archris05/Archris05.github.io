@@ -3,7 +3,7 @@ import '../styles/global.css';
 import { sitePath } from '../data/site';
 
 const {
-	title = 'Effer Glass | Foto, video y edición en Cienfuegos',
+	title = 'Focus | Foto, video y edición en Cienfuegos',
 	description = 'Fotografía, videografía, edición y manejo de redes en Cienfuegos.',
 } = Astro.props;
 ---
@@ -27,7 +27,7 @@ const {
 		<div class="announcement">Nuevo: manejo de redes con servicio de 24 horas.</div>
 		<header class="site-header">
 			<div class="shell header-inner">
-				<a class="brand" href={sitePath()} aria-label="Effer Glass, inicio"><img class="brand-logo" src={sitePath('assets/focus-logo.png')} alt="FOCUS" width="176" height="46" /><img class="brand-symbol" src={sitePath('assets/focus-symbol.png')} alt="" width="42" height="44" /></a>
+				<a class="brand" href={sitePath()} aria-label="Focus, inicio"><img class="brand-logo" src={sitePath('assets/focus-logo.png')} alt="Focus" width="176" height="46" /><img class="brand-symbol" src={sitePath('assets/focus-symbol.png')} alt="" width="42" height="44" /></a>
 				<nav class="main-nav" aria-label="Principal">
 					<a href={sitePath('#servicios')}>Servicios</a>
 					<a href={sitePath('fotos/')}>Galería</a>
@@ -48,11 +48,11 @@ const {
 		<slot />
 		<footer class="site-footer">
 			<div class="shell footer-main">
-				<div><a class="brand footer-brand" href={sitePath()} aria-label="Effer Glass, inicio"><img class="brand-logo" src={sitePath('assets/focus-logo.png')} alt="FOCUS" width="156" height="41" /><img class="brand-symbol" src={sitePath('assets/focus-symbol.png')} alt="" width="42" height="44" /></a><p>Fotografía, video y edición en Cienfuegos.</p></div>
+				<div><a class="brand footer-brand" href={sitePath()} aria-label="Focus, inicio"><img class="brand-logo" src={sitePath('assets/focus-logo.png')} alt="Focus" width="156" height="41" /><img class="brand-symbol" src={sitePath('assets/focus-symbol.png')} alt="" width="42" height="44" /></a><p>Fotografía, video y edición en Cienfuegos.</p></div>
 				<div><h2>Explorar</h2><a href={sitePath('#servicios')}>Servicios</a><a href={sitePath('fotos/')}>Galería de fotos</a><a href={sitePath('#faq')}>Preguntas frecuentes</a></div>
 				<div><h2>Contacto</h2><a href="https://wa.me/5355192915" target="_blank" rel="noopener noreferrer">WhatsApp · +53 55 192 915</a><span>Cienfuegos, Cuba</span></div>
 			</div>
-			<div class="shell footer-bottom"><span>© {new Date().getFullYear()} Effer Glass</span><a href={sitePath('fotos/')}>Ver galería <span aria-hidden="true">↗</span></a></div>
+			<div class="shell footer-bottom"><span>© {new Date().getFullYear()} Focus</span><a href={sitePath('fotos/')}>Ver galería <span aria-hidden="true">↗</span></a></div>
 		</footer>
 	</body>
 </html>

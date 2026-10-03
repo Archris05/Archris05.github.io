@@ -1,4 +1,4 @@
-name: Deploy FOCUS to GitHub Pages
+name: Deploy Focus to GitHub Pages
 
 on:
   push:

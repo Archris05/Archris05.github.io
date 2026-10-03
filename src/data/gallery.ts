@@ -67,7 +67,7 @@ function photosIn(directory: string): GalleryPhoto[] {
 			const publicPath = relative(publicRoot, filePath).split(sep).map(encodeURIComponent).join('/');
 			const fileLabel = labelFromFolder(basename(entry.name, extname(entry.name)));
 
-			return { src: sitePath(publicPath), alt: fileLabel || 'Fotografía de Effer Glass' };
+			return { src: sitePath(publicPath), alt: fileLabel || 'Fotografía de Focus' };
 		});
 }
 
